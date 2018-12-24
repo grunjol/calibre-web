@@ -5,23 +5,24 @@
 # victorhck <victorhck@mailbox.org>, 2018.
 msgid ""
 msgstr ""
-"Project-Id-Version:  Calibre-Web\n"
+"Project-Id-Version: Calibre-Web\n"
 "Report-Msgid-Bugs-To: https://github.com/janeczku/Calibre-Web\n"
 "POT-Creation-Date: 2018-11-03 14:03+0100\n"
-"PO-Revision-Date: 2018-10-05 11:27+0100\n"
+"PO-Revision-Date: 2018-12-24 14:11-0300\n"
 "Last-Translator: victorhck <victorhck@mailbox.org>\n"
 "Language: es\n"
 "Language-Team: Spanish <>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: cps/book_formats.py:129 cps/book_formats.py:130 cps/book_formats.py:134
 #: cps/book_formats.py:138 cps/converter.py:11 cps/converter.py:27
 msgid "not installed"
-msgstr "No instalado"
+msgstr "no instalado"
 
 #: cps/converter.py:22 cps/converter.py:38
 msgid "Excecution permissions missing"
@@ -29,7 +30,7 @@ msgstr "Permisos de ejecución ausentes"
 
 #: cps/converter.py:48
 msgid "not configured"
-msgstr ""
+msgstr "no configurado"
 
 #: cps/helper.py:58
 #, python-format
@@ -73,7 +74,7 @@ msgstr "Registrar un correo electrónico para el usuario: %(name)s"
 
 #: cps/helper.py:135 cps/helper.py:145
 msgid "Could not find any formats suitable for sending by e-mail"
-msgstr "No se pudo encontrar ningún formato adecuado para enviar por correo electrónico."
+msgstr "No se pudo encontrar ningún formato adecuado para enviar por correo electrónico"
 
 #: cps/helper.py:148
 #, python-format
@@ -130,23 +131,23 @@ msgstr "Finalizado"
 
 #: cps/helper.py:617
 msgid "Unknown Status"
-msgstr ""
+msgstr "Estado Desconocido"
 
 #: cps/helper.py:622
 msgid "E-mail: "
-msgstr ""
+msgstr "E-mail: "
 
 #: cps/helper.py:624 cps/helper.py:628
 msgid "Convert: "
-msgstr ""
+msgstr "Convertir: "
 
 #: cps/helper.py:626
 msgid "Upload: "
-msgstr ""
+msgstr "Subir:"
 
 #: cps/helper.py:630
 msgid "Unknown Task: "
-msgstr ""
+msgstr "Tarea Desconocida:"
 
 #: cps/web.py:1132 cps/web.py:2842
 msgid "Unknown"
@@ -198,7 +199,7 @@ msgstr "Descomprimiendo paquete de actualización"
 
 #: cps/web.py:1253
 msgid "Replacing files"
-msgstr ""
+msgstr "Reemplazando archivos"
 
 #: cps/web.py:1254
 msgid "Database connections are closed"
@@ -206,7 +207,7 @@ msgstr "Los conexiones de base datos están cerradas"
 
 #: cps/web.py:1255
 msgid "Stopping server"
-msgstr ""
+msgstr "Deteniendo servidor"
 
 #: cps/web.py:1256
 msgid "Update finished, please press okay and reload page"
@@ -214,7 +215,7 @@ msgstr "Actualización finalizada. Por favor, pulse OK y recargue la página"
 
 #: cps/web.py:1257 cps/web.py:1258 cps/web.py:1259 cps/web.py:1260
 msgid "Update failed:"
-msgstr ""
+msgstr "Actualización fallida:"
 
 #: cps/web.py:1283
 msgid "Recently Added Books"
@@ -258,12 +259,12 @@ msgstr "Error en la apertura del eBook. El archivo no existe o no es accesible:"
 
 #: cps/web.py:1438
 msgid "Publisher list"
-msgstr ""
+msgstr "Lista de Editoriales"
 
 #: cps/web.py:1452
 #, python-format
 msgid "Publisher: %(name)s"
-msgstr ""
+msgstr "Editorial: %(name)s"
 
 #: cps/templates/index.xml:83 cps/web.py:1484
 msgid "Series list"
@@ -427,16 +428,16 @@ msgstr "Estante especificado inválido"
 #: cps/web.py:2483
 #, python-format
 msgid "Sorry you are not allowed to add a book to the the shelf: %(shelfname)s"
-msgstr ""
+msgstr "No puedes agregar un libro al estante: %(shelfname)s"
 
 #: cps/web.py:2491
 msgid "You are not allowed to edit public shelves"
-msgstr ""
+msgstr "No puedes editar estantes públicos"
 
 #: cps/web.py:2500
 #, python-format
 msgid "Book is already part of the shelf: %(shelfname)s"
-msgstr ""
+msgstr "El libra ya es parte del estante: %(shelfname)s"
 
 #: cps/web.py:2514
 #, python-format
@@ -702,7 +703,7 @@ msgstr "%(langname)s no es un idioma válido"
 
 #: cps/web.py:3752
 msgid "Metadata successfully updated"
-msgstr ""
+msgstr "Metadatos actualizados"
 
 #: cps/web.py:3761
 msgid "Error editing book, please check logfile for details"
@@ -1323,7 +1324,7 @@ msgstr "Mostrar selección de autores"
 
 #: cps/templates/config_view_edit.html:148 cps/templates/user_edit.html:94
 msgid "Show publisher selection"
-msgstr ""
+msgstr "Mostrar selección de editoriales"
 
 #: cps/templates/config_view_edit.html:152 cps/templates/user_edit.html:98
 msgid "Show read and unread"
@@ -1355,7 +1356,7 @@ msgstr "idioma"
 
 #: cps/templates/detail.html:172
 msgid "Read"
-msgstr "Leer"
+msgstr "Leído"
 
 #: cps/templates/detail.html:182
 msgid "Description:"
@@ -1480,11 +1481,11 @@ msgstr "Libros ordenados por autor"
 
 #: cps/templates/index.xml:69 cps/templates/layout.html:163
 msgid "Publishers"
-msgstr ""
+msgstr "Editoriales"
 
 #: cps/templates/index.xml:73
 msgid "Books ordered by publisher"
-msgstr ""
+msgstr "Libros ordenados por editorial"
 
 #: cps/templates/index.xml:80
 msgid "Books ordered by category"
@@ -1924,15 +1925,6 @@ msgstr "Descargas recientes"
 #~ msgid "E-Mail: %(book)s"
 #~ msgstr ""
 
-#~ msgid "Rename title from: '%(src)s' to '%(dest)s' failed with error: %(error)s"
-#~ msgstr ""
-
-#~ msgid "Rename author from: '%(src)s' to '%(dest)s' failed with error: %(error)s"
-#~ msgstr ""
-
-#~ msgid "Password for user %(user)s reset"
-#~ msgstr ""
-
 #~ msgid "Password for user %s reset"
 #~ msgstr ""
 
@@ -1974,4 +1966,3 @@ msgstr "Descargas recientes"
 
 #~ msgid "Convertertool %(converter)s not found"
 #~ msgstr "Convertertool %(converter)s no encontrado"
-
